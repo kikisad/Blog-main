@@ -38,7 +38,7 @@ export default function Herobanner() {
       <div class="flex flex-wrap-reverse md:flex-nowrap">
         <motion.div variants={fadeInUp} key="modal-herobanner-2"  class="pl-5 lg:pl-8 w-full md:w-1/2">
           <h3 class="text-base font-medium text-gray-600 sm:pt-20 md:pt-18 xl:pt-32	pt-5" >
-            Hi, je suis killian  ! 
+            Hi, je suis killian  dqsd! 
             </h3>
           <br/>
           <h1 class="text-3xl sm:text-4xl md:text-xl lg:text-4xl font-black text-gray-600 pr-5 sm:pr-10">
