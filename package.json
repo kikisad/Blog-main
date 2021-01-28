@@ -1,0 +1,39 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "classnames": "2.2.6",
+    "date-fns": "2.16.1",
+    "framer": "^1.2.16",
+    "framer-motion": "^3.2.1",
+    "googleapis": "^67.0.0",
+    "gray-matter": "4.0.2",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "latest",
+    "next-seo": "^4.17.0",
+    "next-sitemap": "^1.4.15",
+    "nextjs-breadcrumbs": "^0.9.9",
+    "querystring": "^0.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "remark": "13.0.0",
+    "remark-html": "13.0.1",
+    "swr": "^0.3.11",
+    "use-sound": "^2.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.0.4",
+    "file-loader": "^6.2.0",
+    "postcss": "8.1.10",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "2.0.1"
+  },
+  "license": "MIT"
+}

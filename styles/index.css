@@ -1,0 +1,158 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+.gradient{
+    background: linear-gradient(270deg,#0AF5F4 25.28%,#09DB1F 59.7%,#F7F322 97.75%);
+    width: 100%;
+    height: 15px;
+
+}
+.text-xxs{
+  font-size: 0.6em;
+
+}
+.gradienttkt{
+  background: -webkit-linear-gradient(180deg,#0AF5F4 25.28%,#09DB1F 59.7%,#F7F322 97.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradientbtn{
+  background: linear-gradient(90deg,#0AF5F4 25.28%,#09DB1F 59.7%,#F7F322 97.75%);
+  width: 100px;
+  height: 100px;
+}
+.glassbtn{
+  backdrop-filter: blur(2em);
+  -webkit-backdrop-filter: blur(2em);
+  width: 100px;
+  height: 100px;
+}
+.blankbtn{
+    width: 93px;
+    height: 93px;
+  }
+
+
+.sticky-nav {
+    z-index: 10;
+    top: 0;
+    backdrop-filter: saturate(180%) blur(20px);
+    transition: background-color 0.1 ease-in-out;
+  }
+  .tothetop{
+    z-index: 1;
+
+  }
+
+
+
+  :root {
+    --text: #2b3044;
+    --line: #dbdde9;
+    --line-active: #357BF0;
+  }
+  
+  .animation {
+    font-size: 18px;
+    margin: 0;
+    color: var(--text);
+  }
+ .animation a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 var(--spacing, 0px);
+    transition: margin 0.25s;
+  }
+ .animation a svg {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 7px) translateZ(0);
+    fill: none;
+    stroke: var(--stroke, var(--line));
+    stroke-linecap: round;
+    stroke-width: 2px;
+    stroke-dasharray: var(--offset, 69px) 278px;
+    stroke-dashoffset: 361px;
+    transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
+  }
+  @media screen and (max-width: 640px) {
+    .animation a svg {
+      width: 70px;
+      height: 100px;
+      position: absolute;
+      left: 55%;
+      top: -95%;
+      transform: translate(-50%, 7px) translateZ(0);
+      fill: none;
+      stroke: var(--stroke, var(--line));
+      stroke-linecap: round;
+      stroke-width: 2px;
+      stroke-dasharray: var(--offset, 69px) 278px;
+      stroke-dashoffset: 361px;
+      transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
+    }
+    
+  }
+
+
+  .animation a:hover {
+    --spacing: 4px;
+    --stroke: var(--line-active);
+    --stroke-delay: 0.1s;
+    --offset: 180px;
+  }
+  
+  html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .hovercard {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 200ms;
+    
+  }
+ 
+  .hovercard:hover {
+    box-shadow:  0 4px 6px -1px rgba(0, 0, 0, 0.1)
+  }
+
+  .hoverimages{
+    transition: transform 1s;
+    
+  }
+  .hoverimages:hover {
+    transform: rotate(180deg);
+  }
+
