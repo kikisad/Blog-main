@@ -59,7 +59,7 @@ export default function apropos() {
                     À propos de moi 
                 </h2>
                 <h3 className="pt-2 pb-10 text-gray-400">
-                    Si tu veux en savoir plus sur moi   
+                    Quelques petites choses à savoir sur moi   
                 </h3>
               </motion.div>
               <motion.div variants={stagger} key="modal-aporpos-2" class="w-full mw-auto sm:mt-10 mb-20 lg:mt-10 lg:mb-20">
@@ -76,10 +76,10 @@ export default function apropos() {
 
                     />
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                        À propos de moi 
+                     Entrepreneurs  
                     </h2>
                     <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Si tu veux en savoir plus sur moi   
+                    Enfin encore étudiant, mais ça fais classe quand je me présente.  
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-3" >
@@ -94,10 +94,10 @@ export default function apropos() {
 
                     />
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                        À propos de moi 
+                      UI et UX Designer  
                     </h2>
                     <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Si tu veux en savoir plus sur moi   
+                    Personne ne comprend à quoi ça correspond alors je suis plutôt « Graphiste Web » ou peut-être un « webdesigner du future »   
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-4" >
@@ -111,10 +111,10 @@ export default function apropos() {
                     src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-message-Vert.png'}
                     />
                     <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                        À propos de moi 
+                        Explorateurs 
                     </h2>
                     <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Si tu veux en savoir plus sur moi   
+                        Technologie, crypto, montre, vidéo, typographie, podcast…   
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-5">
@@ -128,10 +128,10 @@ export default function apropos() {
                     src={'/static/images/Icon-article-design-blog-3D-Conique.png'}
                     />
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                        À propos de fffmoi 
+                        Un mini laboratoire 
                     </h2>
                     <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Si tu veux en savoir plus sur moi   
+                        Une envie de réalisé mes side project 
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-6">
@@ -145,10 +145,10 @@ export default function apropos() {
                     src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-bousole.png'}
                     />
                     <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                        À propos de moi 
+                        Ma philosophie   
                     </h2>
                     <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Si tu veux en savoir plus sur moi   
+                        Apporter un petit plus, pour crée une émotion chez l'internaute   
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-7">
@@ -162,10 +162,10 @@ export default function apropos() {
                     src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-Connexion.png'}
                     />
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                        À propos de moi 
+                        Discutons 
                     </h2>
                     <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Si tu veux en savoir plus sur moi   
+                        Allons boire un café ?   
                     </h3>
                   </motion.div>
                 </div>
