@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 
 export default function Index({ allPosts }) {
   const morePosts = allPosts.slice(0)
+
   return (
     <>
       <motion.div 

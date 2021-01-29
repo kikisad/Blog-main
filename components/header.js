@@ -1,5 +1,7 @@
 import NextLink from 'next/link';
 import { motion } from "framer-motion";
+import useSound from 'use-sound';
+import boopSfx from '../public/static/sounds/boop.mp3';
 
 let easing = [0.6, -0.05, 0.01, 0.99];
 const fadeInUp = {
@@ -20,12 +22,15 @@ const fadeInUp = {
 };
 
 export default function Header({ children }) {
+  const [play] = useSound(boopSfx);
+
   return (
     <motion.div variants={fadeInUp}  key="modal-header-1" className="bg-white ">
       <nav className=" sm:sticky sticky-nav mt-1 pt-2 pl-5 pr-9 lg:pl-4 flex justify-between items-center bg-white bg-opacity-90">
+
         <div class="flex flex-nowrap">
           <NextLink href="/" scroll={false}>
-            <a className="p-1 text-sm sm:text-xl font-bold sm:p-4 text-gray-900 ">Blog killian.</a>
+            <a className="p-1 text-sm sm:text-xl font-bold sm:p-4 text-gray-900 ">SideLab. Blog</a>
           </NextLink>
           <NextLink href="/apropos" scroll={false} >
             <p className="animation">
@@ -49,6 +54,13 @@ export default function Header({ children }) {
             </p>
           </NextLink>
         </div>
+        <button
+          aria-label="Toggle Dark Mode"
+          type="button"
+          className="  rounded p-3 h-10 w-10"
+          onClick={play}        
+          >
+        </button>
       </nav>
       <main className="flex flex-col justify-center bg-white dark:bg-black px-8">
         {children}

@@ -43,7 +43,7 @@ export default function Herobanner() {
           <br/>
           <h1 class="text-3xl sm:text-4xl md:text-xl lg:text-4xl font-black text-gray-600 pr-5 sm:pr-10">
             J'avais envie de raconter ma vie d'étudiant 
-            entrepreneur à toulon, plein ~~de pivot~~ d'aventure.
+            entrepreneur à toulon, plein de pivot et d'aventure.
           </h1>
           <br/>
           <motion.div variants={fadeInUp} key="modal-herobanner-2"  class="flex " >

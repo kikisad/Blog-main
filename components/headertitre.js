@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { motion } from "framer-motion";
 
+
 let easing = [0.6, -0.05, 0.01, 0.99];
 
 const stagger = {
@@ -29,6 +30,7 @@ const fadeInUp = {
 };
 
 export default function headertitre() {
+
   return (
     <motion.div variants={stagger} key="modal-headertitre">
     <motion.div variants={fadeInUp} key="modal-headertitre-1" className="mt-5 sm:mt-20 lg:mt-16 ">
