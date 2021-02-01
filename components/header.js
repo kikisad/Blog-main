@@ -30,7 +30,7 @@ export default function Header({ children }) {
 
         <div class="flex flex-nowrap">
           <NextLink href="/" scroll={false}>
-            <a className="p-1 text-sm sm:text-xl font-bold sm:p-4 text-gray-900 ">SideLab. Blog</a>
+            <a className="p-1 text-sm sm:text-xl font-bold sm:p-4 text-gray-900 ">Blog.</a>
           </NextLink>
           <NextLink href="/apropos" scroll={false} >
             <p className="animation">
@@ -48,16 +48,15 @@ export default function Header({ children }) {
                     Podcast
                     <svg viewBox="0 0 70 36">
                         <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-                        
                     </svg>
                 </a>
             </p>
           </NextLink>
         </div>
         <button
-          aria-label="Toggle Dark Mode"
+          aria-label="Toggle-nothing-for-the-moment-lol"
           type="button"
-          className="  rounded p-3 h-10 w-10"
+          className="rounded p-3 h-10 w-10"
           onClick={play}        
           >
         </button>

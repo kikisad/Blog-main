@@ -50,7 +50,7 @@ export default function headertitre() {
         Articles
       </h2>
       <h3 id="articles" className="pt-2 pb-10 text-gray-500">
-        Découvret tous mes articles, sur l'entreprenariat étudiant    
+        L'ensemble des articles sur des sujets qui m'interesse ! 
       </h3>
       </motion.div>
   </motion.div>

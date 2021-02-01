@@ -67,9 +67,9 @@ export default function apropos() {
                 <motion.div variants={fadeInUp}>
                   <Image
                     alt="Icon-article-design-blog-3D-2"
-                    className="rounded-lg mt-10 "
-                    height={103}
-                    width={107}
+                    className="rounded-lg mt-10"
+                    height={97}
+                    width={100}
                     priority="true"
                     quality="100"
                     src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-recherche.png'}
@@ -78,16 +78,16 @@ export default function apropos() {
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
                      Entrepreneurs  
                     </h2>
-                    <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                    Enfin encore étudiant, mais ça fais classe quand je me présente.  
+                    <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
+                    Enfin encore étudiant, mais entrepreneur quand même !
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-3" >
                   <Image
                     alt="Icon-article-design-blog-3D-2"
                     className="rounded-lg mt-10 "
-                    height={103}
-                    width={107}
+                    height={97}
+                    width={100}
                     priority="true"
                     quality="100"
                     src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-Elastique.png'}
@@ -96,8 +96,8 @@ export default function apropos() {
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
                       UI et UX Designer  
                     </h2>
-                    <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                    Personne ne comprend à quoi ça correspond alors je suis plutôt « Graphiste Web » ou peut-être un « webdesigner du future »   
+                    <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
+                      Je crée des interfaces offrent une expérience différente aux visiteurs.   
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-4" >
@@ -113,7 +113,7 @@ export default function apropos() {
                     <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
                         Explorateurs 
                     </h2>
-                    <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
+                    <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
                         Technologie, crypto, montre, vidéo, typographie, podcast…   
                     </h3>
                   </motion.div>
@@ -121,25 +121,25 @@ export default function apropos() {
                   <Image
                     alt="Icon-article-design-blog-3D-2"
                     className="rounded-lg mt-10 "
-                    height={103}
-                    width={107}
+                    height={97}
+                    width={100}
                     priority="true"
                     quality="100"
                     src={'/static/images/Icon-article-design-blog-3D-Conique.png'}
                     />
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                        Un mini laboratoire 
+                        Mini laboratoire 
                     </h2>
-                    <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Une envie de réalisé mes side project 
+                    <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
+                        J'aime expérimenter, et apprendre sur beaucoups de sujet 
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-6">
                   <Image
                     alt="Icon-article-design-blog-3D-2"
                     className="rounded-lg mt-10 "
-                    height={103}
-                    width={107}
+                    height={97}
+                    width={100}
                     priority="true"
                     quality="100"
                     src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-bousole.png'}
@@ -147,16 +147,16 @@ export default function apropos() {
                     <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
                         Ma philosophie   
                     </h2>
-                    <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Apporter un petit plus, pour crée une émotion chez l'internaute   
+                    <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
+                        Apporter un petit plus, pour crée une émotion par l'image    
                     </h3>
                   </motion.div>
                   <motion.div variants={fadeInUp} key="modal-aporpos-7">
                   <Image
                     alt="Icon-article-design-blog-3D-2"
                     className="rounded-lg mt-10 "
-                    height={103}
-                    width={107}
+                    height={97}
+                    width={100}
                     priority="true"
                     quality="100"
                     src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-Connexion.png'}
@@ -164,8 +164,8 @@ export default function apropos() {
                      <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
                         Discutons 
                     </h2>
-                    <h3 className="text-smpt-2 sm:px-5 pt-2 text-gray-400">
-                        Allons boire un café ?   
+                    <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
+                        Allons boire un café ? Je suis dispo sur Twitter @kikisad_
                     </h3>
                   </motion.div>
                 </div>
