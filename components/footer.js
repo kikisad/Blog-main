@@ -13,7 +13,7 @@ const ExternalLink = ({ href, children }) => (
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col items-center mb-5 sm:mt-8 sm:mb-14">
+    <footer className="flex flex-col items-center mt-10 mb-5 sm:mt-8 sm:mb-14">
       <div className="flex space-x-4 mb-4">
         <ExternalLink href="https://twitter.com/saumon_">
           <span className="sr-only">Twitter</span>
@@ -74,7 +74,7 @@ export default function Footer() {
           <a className="text-sm text-gray-500 hover:text-gray-600"> *A propos</a>
         </Link>
       </div>
-      <div className=" text-center	text-xs mt-4 text-gray-500 hover:text-gray-600">
+      <div className=" text-center text-xs mr-10 ml-10 md:mt-4 text-gray-500 hover:text-gray-600">
       © 2020-Présent Killian Cartignies. All Rights Reserved.
       </div>
     </footer>

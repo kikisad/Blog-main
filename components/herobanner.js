@@ -37,7 +37,7 @@ export default function Herobanner() {
 
       <div class="flex flex-wrap-reverse md:flex-nowrap">
         <motion.div variants={fadeInUp} key="modal-herobanner-2"  class="pl-7 w-full lg:w-1/2 ">
-          <h1 class="text-4xl font-black text-gray-600 pr-5 pt-5 md:pt-28 lg:pt-28 xl:pt-48 herotxtpaddontop">
+          <h1 class="text-4xl md:text-3xl font-black text-gray-600 pr-5 pt-5 md:pt-10 lg:pt-28 xl:pt-48 herotxtpaddontop">
           <div>
               Je raconter ma vie
               <div class="inline bg-gray-100">
@@ -66,7 +66,7 @@ export default function Herobanner() {
                     ease: easing,
                   }}
             >
-              <div class="bg-gray-600 text-white font-black rounded p-4 mr-10 text-xxs mt-0 sm:mt-0  xl:mt-0 ">
+              <div class="bg-gray-600 text-white font-black rounded p-4 mr-10 text-xxs mt-0 sm:mt-0 xl:mt-0 ">
               <Link 
                   href="/#articles"
                   aria-label="Lien vers mes articles"
@@ -88,7 +88,7 @@ export default function Herobanner() {
                   }} 
                   class=""
             >
-              <div class="border border-gray-600 text-gray-600 font-black rounded p-4 mr-10 text-xxs mt-5 BtnPaddingTop">
+              <div class="border border-gray-600 text-gray-600 font-black rounded p-4 mr-10 text-xxs mt-5 md:mt-5 lg:mt-0 BtnPaddingTop">
                   <div class="flex items-center">
                     <div class="flex-initial pr-3">
                       <svg width="14" height="14" alt="Fleche-redirection" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12H21M21 12L14 5M21 12L14 19" stroke="#4B5563" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>

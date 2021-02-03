@@ -45,7 +45,7 @@ export default function PostPreview({
                   title={title}
                   src={coverImage}
                   height={150}
-                  width={350}
+                  width={255}
                 />
             </div>
           </div>
