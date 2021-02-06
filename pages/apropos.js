@@ -4,6 +4,8 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import { motion } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+import Layout from '../components/layout'
+
 
 
 let easing = [0.6, -0.05, 0.01, 0.99];
@@ -37,8 +39,8 @@ const fadeInUp = {
 export default function apropos() {
   return (
 
-    <Container>
-          <NextSeo
+    <Layout>
+        <NextSeo
             title="A propos de – killian étudiant entrepreneur"
             canonical="https://blog.killiancartignies.com/apropos"
             openGraph={{
@@ -53,7 +55,7 @@ export default function apropos() {
               animate='animate' 
               exit={{ opacity: 0 }}
             >    
-            <div className="mt-5 sm:mt-10 w-full lg:w-9/12 mx-auto ">
+            <div className="mt-5 ">
               <motion.div variants={fadeInUp} key="modal-aporpos-1">
                 <h2 className="sm:text-5xl text-4xl md:text-6xl mt-5 md:text-7xl font-bold tracking-tighter leading-tight">
                     À propos de moi 
@@ -62,7 +64,7 @@ export default function apropos() {
                     Quelques petites choses à savoir sur moi   
                 </h3>
               </motion.div>
-              <motion.div variants={stagger} key="modal-aporpos-2" class="w-full mw-auto sm:mt-10 mb-20 lg:mt-10 lg:mb-20">
+              <motion.div variants={stagger} key="modal-aporpos-2" class="w-full mw-auto sm:mt-10 mb-20 lg:mt-10 lg:mb-20 sm:mt-10 lg:w-9/12 mx-auto ">
                 <div class="grid grid-cols-2 md:grid-cols-3 sm:gap-x-10 sm:gap-y-14 gap-x-5 gap-y-5 items-center text-center	 ">
                 <motion.div variants={fadeInUp}>
                   <Image
@@ -175,11 +177,9 @@ export default function apropos() {
               
 
             </div>
-            <Footer/>
             </motion.div>
           </Header>
-          
-        </Container>
+      </Layout>
 
   )
 }

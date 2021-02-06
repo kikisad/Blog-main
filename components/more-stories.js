@@ -52,6 +52,7 @@ export default function MoreStories({ posts }) {
                   coverImage={post.coverImage}
                   date={post.date}
                   tag={post.tag}
+                  Tpsl={post.Tpsl}
                   slug={post.slug}
                   excerpt={post.excerpt}
                 />
@@ -64,15 +65,15 @@ export default function MoreStories({ posts }) {
         <div class="sm:w-2/4	flex-1 lg:ml-5 rounded-xl">
           <div class="">
             <motion.div variants={fadeInUp} key="modal-morestories-2">
-              <div class=" w-full p-5 shadow rounded-t-lg ">
-                  <h3 class="text-2xl  leading-6 font-medium text-gray-900">
+              <div class=" w-full p-5 border ">
+                  <h3 class="text-2xl leading-6 font-medium text-gray-900">
                     Mes musiques
                   </h3>
               </div> 
                 <div class=''>
                 <NowPlaying/>
                 </div>
-              <div class=" mt-5 w-full p-5  shadow	 rounded-t-lg ">
+              <div class=" mt-5 w-full p-5 border">
                   <h3 class="text-2xl leading-6 font-medium text-gray-900">
                     Dashboard
                   </h3>

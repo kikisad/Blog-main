@@ -26,7 +26,7 @@ export default function Header({ children }) {
 
   return (
     <motion.div variants={fadeInUp}  key="modal-header-1" className="bg-white ">
-      <nav className=" sm:sticky sticky-nav mt-1 pt-2 pl-5 pr-9 lg:pl-4 flex justify-between items-center bg-white bg-opacity-90">
+      <nav className=" sticky sticky-nav mt-1 pt-2 pl-5 pr-9 lg:pl-4 flex justify-between items-center bg-white bg-opacity-90">
 
         <div class="flex flex-nowrap">
           <NextLink href="/" scroll={false}>

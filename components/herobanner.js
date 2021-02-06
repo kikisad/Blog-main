@@ -34,13 +34,13 @@ const fadeInUp = {
 export default function Herobanner() {
   return (
     <motion.div variants={stagger} key="modal-herobanner" >
-      <div class="flex flex-wrap-reverse md:flex-nowrap bg-gray-50 mt-5">
+      <div class="flex flex-wrap-reverse md:flex-nowrap bg-gray-50 mt-5 sm:px-10">
         <motion.div variants={fadeInUp} key="modal-herobanner-2" class="pl-7 w-full lg:w-1/2 ">
-          <h1 class="text-4xl md:text-3xl font-black text-gray-600 pr-5 pt-5 md:pt-10 lg:pt-28 xl:pt-48 herotxtpaddontop">
+          <h1 class="text-2xl sm:text-4xl md:text-xl lg:text-3xl font-black text-gray-600 my-auto	 herotxtpaddontop">
             <div>
-                Je raconter ma vie
-                <div class="inline bg-gray-100">
-                &#160;d'étudiant entrepreneur à toulon&#160;
+                Je raconter ma vie&#160;
+                <div class="inline bg-gray-200">
+                d'étudiant <br/> entrepreneur à toulon&#160;
                 </div>
             </div>
             </h1>
@@ -65,7 +65,7 @@ export default function Herobanner() {
                     ease: easing,
                   }}
             >
-              <div class="bg-gray-600 text-white font-black rounded p-4 mr-10 text-xxs mt-0 sm:mt-0 xl:mt-0 ">
+              <div class="bg-gray-600 text-white font-black rounded p-4 mr-5 text-xxs mt-0 sm:mt-0 xl:mt-0 ">
               <Link 
                   href="/#articles"
                   aria-label="Lien vers mes articles"
@@ -108,20 +108,23 @@ export default function Herobanner() {
         </div>
         </motion.div>
         
-        <motion.div variants={fadeInUp} key="modal-herobanner-2" class="pl-7 w-full lg:w-1/2 ">
+        <motion.div variants={fadeInUp} key="modal-herobanner-2" class=" w-full px-5 md:px-0 lg:w-1/2 pt-10 lg:pt-2">
           <div>
             <Image
               alt="Illustration-laboratoir-numérique-idées"
-              className="rounded-lg"
+              className="rounded-lg "
               priority="true"
               height={500}
-              width={700}
+              width={650}
               quality="100"
               src={'/static/images/Illustration-Imagination-laboratoire-blog.png'}
               />        
           </div>     
         </motion.div>
+        
       </div>
+      <div class="gradienttkt w-full h-2">
+        </div>
     </motion.div>
   )
 }

@@ -9,19 +9,28 @@ export default function PostHeader({
   coverImage,
   date,
   excerpt,
+  Tpsl,
 }) 
 {
   return (
     <>
-      <div className="mt-10 mb-10 ">
-      <div className="rounded-lg pb-8">
-      </div>
+      <div className="mt-5 mb-10 ">
       <div className="">
-          <div class="flex mb-5 items-center ">
+          <CoverImage 
+          className="rounded-lg mb-10"
+          title={title} 
+          src={coverImage} 
+          layout="fill"
+          height={250} 
+          width={500} 
+          />
+        </div>
+      <div className="">
+          <div class="flex mt-10 mb-5 items-center ">
               <div class="flex-initial">
-              <svg width="16" height="16" alt="Fleche-redirection" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 12H3M3 12L10 5M3 12L10 19" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
               </div>
-              <div class="flex-1 ml-3 align-middle font-bold text-gray-400">
+              <div class="flex-1 ml-3 align-middle">
               <Link
                     href={{
                       pathname: "/",
@@ -34,17 +43,8 @@ export default function PostHeader({
         <PostTitle>
           {title}
         </PostTitle>
-        <div className=" text-xs mt-5">
-          <DateFormatter dateString={date} />
-        </div>
-        <div className="mt-10">
-        <CoverImage 
-        className="rounded-lg mb-10"
-        title={title} 
-        src={coverImage} 
-        height={250} 
-        width={500} 
-        />
+        <div className=" text-xs md:mt-10 mt-5">
+          <DateFormatter dateString={date} /> - {Tpsl ?? '5'} Minutes de lecture
         </div>
       </div>
       </div>

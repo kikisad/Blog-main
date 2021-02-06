@@ -16,6 +16,7 @@ import { motion } from "framer-motion";
 
 
 
+
 let easing = [0.6, -0.05, 0.01, 0.99];
 
 const stagger = {
@@ -69,9 +70,8 @@ export default function Post({ post, morePosts, preview }) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mx-auto w-full sm:w-9/12 ">
+            <article className="">
               <Head>
-
               <title>{post.title} | L'entrepreneuriat étudiant </title>
               <meta name="description" content={post.excerpt} />
               <meta name="title" content={post.title} />
@@ -105,6 +105,7 @@ export default function Post({ post, morePosts, preview }) {
                 duration: 0.3,
                 ease: easing,
               }} >
+                
               <PostBody content={post.content} />
               </motion.div>
             </article>
