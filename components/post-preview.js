@@ -49,17 +49,6 @@ export default function PostPreview({
                 />
             </div>
           </div>
-          <div class=" sm:place-self-center hidden sm:block">
-            <div className="">
-                <CoverImage
-                  slug={slug}
-                  title={title}
-                  src={coverImage}
-                  height={190}
-                  width={300}
-                />
-              </div>
-          </div>
       </div>
     </div>
     </Link>

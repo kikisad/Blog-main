@@ -23,13 +23,13 @@ export default function Index({ allPosts }) {
       >
       <Layout>
           <Head/>
-          <HeroBanner />
-          <Container>
-            <Header>
-              <Headertitre/>
-              <MoreStories posts={morePosts} />
-            </Header>
-          </Container>
+          <Header>
+            <HeroBanner />
+            <Container>
+                <Headertitre/>
+                <MoreStories posts={morePosts} />
+            </Container>
+          </Header>
       </Layout>
       </motion.div>
     </>

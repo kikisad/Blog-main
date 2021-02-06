@@ -34,27 +34,26 @@ const fadeInUp = {
 export default function Herobanner() {
   return (
     <motion.div variants={stagger} key="modal-herobanner" >
-
-      <div class="flex flex-wrap-reverse md:flex-nowrap">
-        <motion.div variants={fadeInUp} key="modal-herobanner-2"  class="pl-7 w-full lg:w-1/2 ">
+      <div class="flex flex-wrap-reverse md:flex-nowrap bg-gray-50 mt-5">
+        <motion.div variants={fadeInUp} key="modal-herobanner-2" class="pl-7 w-full lg:w-1/2 ">
           <h1 class="text-4xl md:text-3xl font-black text-gray-600 pr-5 pt-5 md:pt-10 lg:pt-28 xl:pt-48 herotxtpaddontop">
-          <div>
-              Je raconter ma vie
-              <div class="inline bg-gray-100">
-              &#160;d'étudiant entrepreneur à toulon&#160;
-              </div>
-          </div>
-          </h1>
-          <br/>
-          <motion.div variants={fadeInUp} key="modal-herobanner-2"  class="flex " >
-            <div class="flex-initial ">
-              <h2 class="text-sm	font-normal	 text-gray-600">
-                Un petit blog, pour tenir mes objectifs ! 
-              <br/>
-            </h2>
+            <div>
+                Je raconter ma vie
+                <div class="inline bg-gray-100">
+                &#160;d'étudiant entrepreneur à toulon&#160;
+                </div>
             </div>
-          </motion.div>
-          <div class="flex flex-wrap pt-7 pb-20">
+            </h1>
+            <br/>
+            <motion.div variants={fadeInUp} key="modal-herobanner-2"  class="flex " >
+              <div class="flex-initial ">
+                <h2 class="text-sm	font-normal	 text-gray-600">
+                  Un petit blog, pour tenir mes objectifs ! 
+                <br/>
+              </h2>
+              </div>
+            </motion.div>
+            <div class="flex flex-wrap pt-7 pb-20">
             <motion.div
                   key="modal-herobanner-3"
                   whileHover={{ scale: 1.05 }}
@@ -108,26 +107,21 @@ export default function Herobanner() {
             </motion.div>
         </div>
         </motion.div>
-
-        <motion.div 
-                  key="modal-herobanner-5"
-                  initial={{ y: 20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.5, }}  
-                  class="  w-full   lg:w-1/2 "
-        >
-        <Image
-          alt="Illustration-laboratoir-numérique-idées"
-          className="rounded-lg"
-          height={650}
-          width={800}
-          priority="true"
-          quality="100"
-          src={'/static/images/Illustration-Imagination-laboratoire-blog.png'}
-          />
+        
+        <motion.div variants={fadeInUp} key="modal-herobanner-2" class="pl-7 w-full lg:w-1/2 ">
+          <div>
+            <Image
+              alt="Illustration-laboratoir-numérique-idées"
+              className="rounded-lg"
+              priority="true"
+              height={500}
+              width={700}
+              quality="100"
+              src={'/static/images/Illustration-Imagination-laboratoire-blog.png'}
+              />        
+          </div>     
         </motion.div>
-
-    </div>
+      </div>
     </motion.div>
   )
 }
