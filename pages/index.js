@@ -15,22 +15,22 @@ export default function Index({ allPosts }) {
 
   return (
     <>
-      <motion.div 
-      key="modal-index"
-      initial='initial' 
-      animate='animate' 
-      exit={{ opacity: 0 }}
+      <motion.div
+        key="modal-index"
+        initial='initial'
+        animate='animate'
+        exit={{ opacity: 0 }}
       >
-      <Layout>
-          <Head/>
+        <Layout>
+          <Head />
           <Header>
             <HeroBanner />
             <Container>
-                <Headertitre/>
-                <MoreStories posts={morePosts} />
+              <Headertitre />
+              <MoreStories posts={morePosts} />
             </Container>
           </Header>
-      </Layout>
+        </Layout>
       </motion.div>
     </>
   )

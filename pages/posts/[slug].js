@@ -31,7 +31,7 @@ const fadeInUp = {
   initial: {
     y: 30,
     opacity: 0,
-    transition: { duration: 0.6, ease:easing,delay: 0.8 }
+    transition: { duration: 0.6, ease: easing, delay: 0.8 }
   },
   animate: {
     y: 0,
@@ -57,65 +57,65 @@ export default function Post({ post, morePosts, preview }) {
     return <ErrorPage statusCode={404} />
   }
   return (
-    <motion.div 
-    key="modal-slug"
-    initial='initial' 
-    animate='animate' 
-    exit={{ opacity: 0 }}
-    variants={stagger} >    
-    <Layout preview={preview}>
-      <PostContainer>
-        <Header>
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article className="">
-              <Head>
-              <title>{post.title} | L'entrepreneuriat étudiant </title>
-              <meta name="description" content={post.excerpt} />
-              <meta name="title" content={post.title} />
+    <motion.div
+      key="modal-slug"
+      initial='initial'
+      animate='animate'
+      exit={{ opacity: 0 }}
+      variants={stagger} >
+      <Layout preview={preview}>
+        <PostContainer>
+          <Header>
+            {router.isFallback ? (
+              <PostTitle>Loading…</PostTitle>
+            ) : (
+                <>
+                  <article className="">
+                    <Head>
+                      <title>{post.title} | L'entrepreneuriat étudiant </title>
+                      <meta name="description" content={post.excerpt} />
+                      <meta name="title" content={post.title} />
 
-              <meta property="og:title" content="{post.title}" />
-              <meta property="og:url" content="https://blog.killiancartignies.com" />
-              <meta property="og:type" content="article" />
-              <meta property="og:description" content={post.excerpt} />
-              <meta property="og:image" content={post.coverImage} />
+                      <meta property="og:title" content="{post.title}" />
+                      <meta property="og:url" content="https://blog.killiancartignies.com" />
+                      <meta property="og:type" content="article" />
+                      <meta property="og:description" content={post.excerpt} />
+                      <meta property="og:image" content={post.coverImage} />
 
-              <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@kikisad_" />
-              <meta name="twitter:creator" content="@kikisad_" />
-              <meta name="twitter:title" content={post.title} />
-              <meta name="twitter:description" content={post.excerpt} />
-              <meta name="twitter:image" content={post.coverImage} />
+                      <meta name="twitter:card" content="summary_large_image" />
+                      <meta name="twitter:site" content="@kikisad_" />
+                      <meta name="twitter:creator" content="@kikisad_" />
+                      <meta name="twitter:title" content={post.title} />
+                      <meta name="twitter:description" content={post.excerpt} />
+                      <meta name="twitter:image" content={post.coverImage} />
 
-              </Head>
-              <motion.div  key="modal-slug-1" variants={fadeInUp} >
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-              />
-              </motion.div>
-              <motion.div 
-               key="modal-slug-2"
-              initial={{ x: -30, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ 
-                duration: 0.3,
-                ease: easing,
-              }} >
-                
-              <PostBody content={post.content} />
-              </motion.div>
-            </article>
-          </>
-        )}
-        </Header>
-        <Divider />
+                    </Head>
+                    <motion.div key="modal-slug-1" variants={fadeInUp} >
+                      <PostHeader
+                        title={post.title}
+                        coverImage={post.coverImage}
+                        date={post.date}
+                      />
+                    </motion.div>
+                    <motion.div
+                      key="modal-slug-2"
+                      initial={{ x: -30, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{
+                        duration: 0.3,
+                        ease: easing,
+                      }} >
 
-      </PostContainer>
-    </Layout>
+                      <PostBody content={post.content} />
+                    </motion.div>
+                  </article>
+                </>
+              )}
+          </Header>
+          <Divider />
+
+        </PostContainer>
+      </Layout>
     </motion.div>
 
   )
