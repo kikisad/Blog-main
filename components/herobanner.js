@@ -35,8 +35,8 @@ export default function Herobanner() {
   return (
     <motion.div variants={stagger} key="modal-herobanner" >
       <div class="flex md:h-12screen flex-wrap-reverse md:flex-nowrap bg-gray-50 mt-5 sm:px-10">
-        <motion.div variants={fadeInUp} key="modal-herobanner-2" class="m-auto pl-7 w-full lg:w-1/2 ">
-          <h1 class="text-2xl sm:text-4xl md:text-xl lg:text-3xl font-black text-gray-600 my-auto	 herotxtpaddontop">
+        <motion.div variants={fadeInUp} key="modal-herobanner-2" class="m-auto w-full lg:w-1/2 ">
+          <h1 class="text-2xl sm:text-4xl md:text-xl lg:text-3xl font-black text-gray-600 my-auto mt-10 herotxtpaddontop">
             <div>
               Je raconter ma vie&#160;
                 <div class="inline bg-gray-200">
@@ -108,7 +108,7 @@ export default function Herobanner() {
           </div>
         </motion.div>
 
-        <motion.div variants={fadeInUp} key="modal-herobanner-2" class=" w-full px-5 md:px-0 lg:w-1/2 pt-10 lg:pt-2">
+        <motion.div variants={fadeInUp} key="modal-herobanner-2" class=" w-full px-5 md:px-0 lg:w-1/2 pt-5 lg:pt-2">
           <div>
             <Image
               alt="Illustration-laboratoir-numérique-idées"
