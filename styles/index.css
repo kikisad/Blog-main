@@ -179,3 +179,8 @@ html {
     }
     
    }
+
+   }
+   .h-12screen{
+    height: 65vh;
+  }

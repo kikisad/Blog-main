@@ -34,8 +34,8 @@ const fadeInUp = {
 export default function Herobanner() {
   return (
     <motion.div variants={stagger} key="modal-herobanner" >
-      <div class="flex flex-wrap-reverse md:flex-nowrap bg-gray-50 mt-5 sm:px-10">
-        <motion.div variants={fadeInUp} key="modal-herobanner-2" class="pl-7 w-full lg:w-1/2 ">
+      <div class="flex md:h-12screen flex-wrap-reverse md:flex-nowrap bg-gray-50 mt-5 sm:px-10">
+        <motion.div variants={fadeInUp} key="modal-herobanner-2" class="m-auto pl-7 w-full lg:w-1/2 ">
           <h1 class="text-2xl sm:text-4xl md:text-xl lg:text-3xl font-black text-gray-600 my-auto	 herotxtpaddontop">
             <div>
                 Je raconter ma vie&#160;
