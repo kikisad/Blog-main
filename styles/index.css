@@ -176,3 +176,13 @@ html {
    .h-12screen{
     height: 65vh;
   }
+
+
+  .max-w-screen-lg-plus{
+    max-width: 1350px;
+  }
+
+
+.max-w-screen-xl-plus{
+  max-width: 1400px;
+}

@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://blog.killiancartignies.com',
-    generateRobotsTxt: true,
-  }
+  siteUrl: 'https://blog.killiancartignies.com',
+  generateRobotsTxt: true,
+}

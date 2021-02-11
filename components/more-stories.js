@@ -20,7 +20,7 @@ const fadeInUp = {
   initial: {
     y: 60,
     opacity: 0,
-    transition: { duration: 0.6, ease:easing}
+    transition: { duration: 0.6, ease: easing }
   },
   animate: {
     y: 0,
@@ -36,109 +36,32 @@ const fadeInUp = {
 export default function MoreStories({ posts }) {
   return (
     <motion.div variants={stagger} key="modal-morestories">
-    <section>
-      <div class="sm:flex sm:flex-wrap pb-5 ">
-        <div class="pb-5 lg:w-8/12">
-          <div class="w-full cursor-pointer ">
+      <section>
+        <div class="">
+          <div class="pb-5 ">
+            <div class="w-full cursor-pointer ">
               {posts.map((post) => (
-                <motion.div 
-                key={post.slug}
-                whileHover={{ scale: 1.01 }}
-                whileTap={{ scale: 0.99 }}
-                variants={fadeInUp}>
-                <PostPreview
+                <motion.div
                   key={post.slug}
-                  title={post.title}
-                  coverImage={post.coverImage}
-                  date={post.date}
-                  tag={post.tag}
-                  Tpsl={post.Tpsl}
-                  slug={post.slug}
-                  excerpt={post.excerpt}
-                />
-                </motion.div> 
+                  whileHover={{ scale: 1.01 }}
+                  whileTap={{ scale: 0.99 }}
+                  variants={fadeInUp}>
+                  <PostPreview
+                    key={post.slug}
+                    title={post.title}
+                    coverImage={post.coverImage}
+                    date={post.date}
+                    tag={post.tag}
+                    Tpsl={post.Tpsl}
+                    slug={post.slug}
+                    excerpt={post.excerpt}
+                  />
+                </motion.div>
               ))}
-
             </div>
-
           </div>
-        <div class="sm:w-2/4	flex-1 lg:ml-5 rounded-xl">
-          <div class="">
-            <motion.div variants={fadeInUp} key="modal-morestories-2">
-              <div class=" w-full p-5 border ">
-                  <h3 class="text-2xl leading-6 font-medium text-gray-900">
-                    Mes musiques
-                  </h3>
-              </div> 
-                <div class=''>
-                <NowPlaying/>
-                </div>
-              <div class=" mt-5 w-full p-5 border">
-                  <h3 class="text-2xl leading-6 font-medium text-gray-900">
-                    Dashboard
-                  </h3>
-              </div> 
-            </motion.div>
-              <motion.div variants={fadeInUp} key="modal-morestories-3" class="w-full p-5  border border-gray-200 border-t-0">
-                  <div class="flex flex-wrap justify-between	">
-                    <div class="">
-                      <h4 class="text-lg leading-6 font-medium text-gray-500">
-                        Ventes en ligne
-                      </h4>
-                      <h4 class="text-2xl pt-2  leading-6 font-medium text-black">
-                        0€
-                      </h4>
-                    </div>
-                    <motion.div 
-                    key="modal-morestories-4"
-                    initial={{ x: 10, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ delay: 1 }}
-                    class="place-content-end	">
-                    <Image
-                      alt="Icon-article-design-blog-3D-2"
-                      className="rounded-lg mt-10 "
-                      height={60}
-                      width={60}
-                      priority="true"
-                      quality="100"
-                      src={'/static/images/Icon-Argent-Blog-Vente-En-Ligne.png'}
-                      />
-                    </motion.div>
-                  </div>
-              </motion.div> 
-              <motion.div variants={fadeInUp} key="modal-morestories-6" class="w-full p-5  border border-gray-200 border-t-0">
-                  <div class="flex flex-wrap justify-between	">
-                    <div class="">
-                      <h4 class="text-lg leading-6 font-medium text-gray-500">
-                      Vues Unsplash
-                      </h4>
-                      <h4 class="text-2xl pt-2  leading-6 font-medium text-black">
-                        <Unsplash/> 
-                      </h4>
-                    </div>
-                    <motion.div 
-                    key="modal-morestories-8"
-                    initial={{ x: 10, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ delay: 1 }}
-                    class="place-content-end	">
-                    <Image
-                      alt="Icon-article-design-blog-3D-2"
-                      className="rounded-lg mt-10 "
-                      height={60}
-                      width={60}
-                      priority="true"
-                      quality="100"
-                      src={'/static/images/Icon-unsplsh-photo.png'}
-                      />
-                    </motion.div>
-                  </div>
-              </motion.div> 
-            </div>  
         </div>
-      </div> 
-    </section>
+      </section>
     </motion.div>
   )
 }

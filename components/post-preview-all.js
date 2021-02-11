@@ -3,7 +3,7 @@ import CoverImage from './cover-image'
 import Link from 'next/link'
 
 
-export default function PostPreview({
+export default function PostPreviewAll({
   title,
   coverImage,
   date,
@@ -13,33 +13,34 @@ export default function PostPreview({
   slug,
 }) {
   return (
-    <div class="border-b border-t sm:mr-5 py-10 px-10 ">
+    <div class=" sm:mr-5 py-5 px-10 ">
       <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
-        <div class="flex flex-wrap">
+        <div class="">
           <div class="w-auto flex-shrink-0 ">
             <div className="">
               <CoverImage
                 slug={slug}
                 title={title}
                 src={coverImage}
-                height={150}
-                width={200}
+                height={250}
+                width={430}
               />
             </div>
           </div>
-          <div class="w-full md:w-3 sm:w-10 lg:20">
+          <div class="w-full">
+
           </div>
-          <div class="w-full md:w-2/3 lg:w-2/3 ">
-            <h3 className="block pb-3 md:pt-0 pt-5 lg:pt-0 text-lg leading-7 font-medium text-black hover:underline">
+          <div class="w-full mt-4">
+            <h3 className="block pb-3 pt-5 lg:pt-0 text-lg leading-7 font-medium text-black hover:underline">
               <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
                 <a className="hover:underline">{title}</a>
               </Link>
             </h3>
-            <p className="text-sm text-gray-500 pb-4">{excerpt}</p>
+            <p className="text-sm text-gray-500 pb-4  ">{excerpt}</p>
             <div class="flex justify-between">
-              <div class="flex-initial flex flex-row ...">
+              <div class=" flex flex-row ...">
                 <div>
-                  <p className="text-sm text-gray-500 sm:pr-20 hover:underline ">Lire la suite .... </p>
+                  <p className="text-sm text-gray-500 hover:underline ">Lire la suite .... </p>
                 </div>
                 <div>
                   <div className="pl-5 pt-1 arrowanimate">
