@@ -37,7 +37,7 @@ export default function Dashboard() {
 
 
 
-        <div class="mt-10 pl-10">
+        <div class="mt-10 pl-10 sm:pl-0">
             <div class="flex flex-wrap sm:justify-around ">
                 <div class="">
                     <NowPlaying />

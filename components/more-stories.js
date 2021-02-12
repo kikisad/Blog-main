@@ -38,7 +38,7 @@ export default function MoreStories({ posts }) {
     <motion.div variants={stagger} key="modal-morestories">
       <section>
         <div class="">
-          <div class="pb-5 ">
+          <div class="pb-5 flex flex-row">
             <div class="w-full cursor-pointer ">
               {posts.map((post) => (
                 <motion.div
@@ -58,6 +58,8 @@ export default function MoreStories({ posts }) {
                   />
                 </motion.div>
               ))}
+            </div>
+            <div>
             </div>
           </div>
         </div>

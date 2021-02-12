@@ -42,10 +42,10 @@ export default function Index({ allPosts }) {
       >
         <Layout>
           <motion.div variants={fadeInUp} key="modal-headertitre-2" class="pl-10  pt-32">
-            <h2 className="text-6xl sm:mt-5 md:text-7xl font-bold tracking-tighter leading-tight">
+            <h2 className="text-3xl sm:mt-5 md:text-7xl font-bold tracking-tighter leading-tight">
               Tous les articles
           </h2>
-            <h3 id="articles" className="pt-2 pb-10 text-gray-500">
+            <h3 id="articles" className="pr-10 pt-2 pb-10 text-gray-500">
               L'ensemble des articles sur des sujets qui m'interesse !
           </h3>
           </motion.div>

@@ -40,8 +40,7 @@ export default function MoreStoriesAll({ posts }) {
         <div class="">
           <div class="pb-5 ">
             <div class="w-full cursor-pointer ">
-              <div class="grid grid-cols-2 flex flex-wrap ">
-
+              <div class="grid lg:grid-cols-2 grid-cols-1 ">
                 {posts.map((post) => (
                   <motion.div
                     key={post.slug}

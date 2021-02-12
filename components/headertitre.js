@@ -38,9 +38,10 @@ export default function headertitre() {
       <motion.div variants={fadeInUp} key="modal-headertitre-2"  >
         <h2 className="text-6xl sm:mt-5 md:text-7xl font-bold tracking-tighter leading-tight">
           Articles
+
       </h2>
         <h3 id="articles" className="pt-2 pb-10 text-gray-500 text-sm pr-10 sm:text-normal sm:pr-0 ">
-          L'ensemble des articles sur des sujets qui m'interesse !
+          Tous les articles récemments publié sur l'entreprenariat
       </h3>
       </motion.div>
     </motion.div>

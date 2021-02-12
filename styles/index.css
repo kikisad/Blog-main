@@ -186,3 +186,55 @@ html {
 .max-w-screen-xl-plus{
   max-width: 1400px;
 }
+
+.reziseimage{
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border-radius: 0.5rem;
+}
+@media (min-width: 319px) { 
+  .reziseimage{
+    width: 250px;
+    height: 125px;
+  }
+  
+   }
+
+   @media (min-width: 374px) { 
+    .reziseimage{
+      width: 295px;
+      height: 200px;
+    }
+    
+     }
+  
+     @media (min-width: 424px) { 
+      .reziseimage{
+        width: 347px;
+        height: 180px;
+      }
+      
+       }
+
+       @media (min-width: 767px) { 
+        .reziseimage{
+          width: 677px;
+          height: 330px;
+        }
+        
+         }
+         @media (min-width: 1023px) { 
+          .reziseimage{
+            width: 300px;
+    height: 177px;
+          }
+          
+           }
+           @media (min-width: 1439px) { 
+            .reziseimage{
+              width: 425px;
+              height: 219px;
+            }
+            
+             }

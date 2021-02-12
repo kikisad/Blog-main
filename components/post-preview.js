@@ -13,11 +13,11 @@ export default function PostPreview({
   slug,
 }) {
   return (
-    <div class="border-b border-t sm:mr-5 py-10 px-10 ">
+    <div class=" border-b border-t sm:pr-10 py-10 px-10 > ">
       <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
         <div class="flex flex-wrap">
-          <div class="w-auto flex-shrink-0 ">
-            <div className="">
+          <div class="w-auto flex-shrink-0 my-auto  ">
+            <div className="my-auto">
               <CoverImage
                 slug={slug}
                 title={title}
@@ -27,9 +27,9 @@ export default function PostPreview({
               />
             </div>
           </div>
-          <div class="w-full md:w-3 sm:w-10 lg:20">
+          <div class="w-full sm:w-10 md:w-3 lg:w-14 xl:w-9">
           </div>
-          <div class="w-full md:w-2/3 lg:w-2/3 ">
+          <div class="w-full md:w-2/3 lg:w-3/5 xl:w-3/4 xl:pl-7 ">
             <h3 className="block pb-3 md:pt-0 pt-5 lg:pt-0 text-lg leading-7 font-medium text-black hover:underline">
               <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
                 <a className="hover:underline">{title}</a>

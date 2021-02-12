@@ -1,5 +1,8 @@
 import DateFormatter from '../components/date-formatter'
 import CoverImage from './cover-image'
+
+import Image from 'next/image'
+
 import Link from 'next/link'
 
 
@@ -17,13 +20,14 @@ export default function PostPreviewAll({
       <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
         <div class="">
           <div class="w-auto flex-shrink-0 ">
-            <div className="">
-              <CoverImage
+            <div class="reziseimage">
+              <Image
                 slug={slug}
                 title={title}
                 src={coverImage}
-                height={250}
-                width={430}
+                layout="fill"
+                objectFit="cover"
+                quality={100}
               />
             </div>
           </div>
