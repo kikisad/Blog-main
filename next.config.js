@@ -7,6 +7,9 @@ module.exports = {
   },
   webpack(config, options) {
     const { isServer } = options;
+    if (isServer) {
+      require('./scripts/generate-sitemap');
+    }
     config.module.rules.push({
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
       exclude: config.exclude,

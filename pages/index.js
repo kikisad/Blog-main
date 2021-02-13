@@ -3,7 +3,6 @@ import MoreStories from '../components/more-stories'
 import HeroBanner from '../components/herobanner'
 import Headertitre from '../components/headertitre'
 import Dashboard from '../components/dashboard'
-import Subscribe from '../components/subscribe'
 
 
 
@@ -31,7 +30,6 @@ export default function Index({ allPosts }) {
           <Dashboard />
           <Headertitre />
           <MoreStories posts={morePosts} />
-          <Subscribe />
         </Layout>
       </motion.div>
     </>
