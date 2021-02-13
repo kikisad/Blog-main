@@ -1,5 +1,7 @@
 import NextLink from 'next/link';
 import { motion } from "framer-motion";
+import Image from 'next/image';
+
 
 
 let easing = [0.6, -0.05, 0.01, 0.99];
@@ -28,7 +30,17 @@ export default function Header({ children }) {
         <div class="flex justify-between">
           <div>
             <NextLink href="/" scroll={false}>
-              <a className="font-bold text-gray-900 ">Blog.</a>
+              <a className="font-bold text-gray-900 ">
+                <Image
+                  alt="Icon-article-design-blog-3D-2"
+                  className="rounded-full "
+                  height={30}
+                  width={30}
+                  priority="true"
+                  quality="100"
+                  src={'/static/images/Icon-Argent-Blog-Vente-En-Ligne.png'}
+                />
+              </a>
             </NextLink>
           </div>
           <div>

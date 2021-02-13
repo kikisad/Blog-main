@@ -30,7 +30,7 @@ const fadeInUp = {
 export default function Avatar() {
   return (
     <div class="">
-      <div class="flex flex-wrap justify-between mx-10 align-middle  ">
+      <div class="flex flex-wrap mx-auto p-8">
         <div>
           <motion.div variants={fadeInUp} key="modal-morestories-3" class="flex flex-wrap  ">
             <div class="flex flex-wrap sm:flex-nowrap">
@@ -39,7 +39,7 @@ export default function Avatar() {
                 initial={{ x: 10, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 1 }}
-                class="place-content-end hidden md:block	">
+                class="place-content-end hidden md:block my-auto	">
                 <Image
                   alt="Icon-article-design-blog-3D-2"
                   className="rounded-full "
@@ -47,15 +47,20 @@ export default function Avatar() {
                   width={100}
                   priority="true"
                   quality="100"
-                  src={'/static/images/Icon-Argent-Blog-Vente-En-Ligne.png'}
+                  src={'/static/images/Photo_auteur_blog_Killian_Cartignies.png'}
                 />
               </motion.div>
-              <div class="flex flex-col justify-center items-start pl-2 pl-2 sm:pl-10 sm:pr-20">
+              <div class="flex flex-col justify-center items-start pl-2 pl-2 sm:pl-10 ">
+                <span class="px-4 py-1 inline-flex text-xs font-bold	mb-2 leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                        Auteur
+  
+                    </span>
                 <h2 className="text-base font-bold tracking-tighter leading-tight">
                   Killian cartignies
                       </h2>
                 <h3 className="text-sm pt-2 text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a massa nec lacus consequat feugiat. Aliquam euismod ligula ac ex viverra dapibus. Quisque pretium consectetur libero.
+                  Explorateur d'univers artistique et entrepreneurs, spécialisé dans l'expérience utilisateur. 
+                  Je conçois et crée des interfaces web et mobile répondant au besoin d'aujourd'hui. 
                 </h3>
               </div>
               <div class=" my-auto">

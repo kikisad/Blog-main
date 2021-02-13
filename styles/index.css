@@ -256,3 +256,59 @@ html {
            width: 100%;
          }
        }
+
+  
+
+
+ @media (max-width: 767px) { 
+  .Positionimg1{
+    position: static;
+    z-index: 1;
+
+  }
+  
+}
+
+@media (min-width: 768px) { 
+  .Positionimg1{
+    position: absolute;
+      z-index: 1;
+      left: 16px;
+      right: 83px;
+      top: 10px;
+
+  }
+  
+}
+
+@media (min-width: 1023px) { 
+  .Positionimg1{
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+right: 83px;
+top: -10px;
+  }
+  
+}
+@media (min-width: 1439px) { 
+  .Positionimg1{
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+right: 83px;
+top: -93px;
+  }
+  
+}
+
+@media (min-width: 2559px) { 
+  .Positionimg1{
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+right: 83px;
+top: -93px;
+  }
+  
+}

@@ -1,6 +1,8 @@
 import Footer from '../components/footer'
 import Header from '../components/header'
 import NextLink from 'next/link';
+import Image from 'next/image';
+
 import Logonav from '../components/logonav'
 import { motion } from "framer-motion";
 
@@ -52,7 +54,17 @@ export default function Layout({ preview, children }) {
               <motion.div variants={fadeInUp} key="modal-navigation-1">
                 <nav className=" absolute w-full text-center align-center pt-5 ">
                   <NextLink href="/" scroll={false}>
-                    <a className="p-1 text-sm sm:text-xl font-bold sm:p-4 text-gray-900 ">Blog.</a>
+                    <a className="p-1 text-sm sm:text-xl font-bold sm:p-4 text-gray-900 ">
+                      <Image
+                        alt="Icon-article-design-blog-3D-2"
+                        className="rounded-full "
+                        height={60}
+                        width={60}
+                        priority="true"
+                        quality="100"
+                        src={'/static/images/Icon-Argent-Blog-Vente-En-Ligne.png'}
+                      />
+                    </a>
                   </NextLink>
                 </nav>
               </motion.div>
