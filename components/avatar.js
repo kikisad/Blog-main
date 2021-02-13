@@ -29,11 +29,11 @@ const fadeInUp = {
 
 export default function Avatar() {
   return (
-    <div class="mt-10">
+    <div class="">
       <div class="flex flex-wrap justify-between mx-10 align-middle  ">
         <div>
           <motion.div variants={fadeInUp} key="modal-morestories-3" class="flex flex-wrap  ">
-            <div class="flex flex-wrap sm:flex-nowrap overflow-hidden">
+            <div class="flex flex-wrap sm:flex-nowrap">
               <motion.div
                 key="modal-morestories-4"
                 initial={{ x: 10, opacity: 0 }}
@@ -42,7 +42,7 @@ export default function Avatar() {
                 class="place-content-end hidden md:block	">
                 <Image
                   alt="Icon-article-design-blog-3D-2"
-                  className="rounded-lg "
+                  className="rounded-full "
                   height={100}
                   width={100}
                   priority="true"
@@ -61,22 +61,7 @@ export default function Avatar() {
               <div class=" my-auto">
 
 
-                <motion.div
-                  key="modal-morestories-4"
-                  initial={{ x: 10, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ delay: 1 }}
-                  class="place-content-end align-middle	hidden md:block	">
-                  <Image
-                    alt="Icon-article-design-blog-3D-2"
-                    className="rounded-lg "
-                    height={60}
-                    width={60}
-                    priority="true"
-                    quality="100"
-                    src={'/static/images/Icon-Argent-Blog-Vente-En-Ligne.png'}
-                  />
-                </motion.div>
+
               </div>
 
             </div>

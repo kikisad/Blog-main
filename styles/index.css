@@ -238,3 +238,21 @@ html {
             }
             
              }
+
+
+             @media (min-width: 1280px) { 
+             .wcorrect{
+              width: 90%;
+            }
+          }
+
+          @media (min-width: 1400px) { 
+            .wcorrect{
+             width: 95%;
+           }
+         }
+         @media (min-width: 1400px) { 
+          .wcorrect{
+           width: 100%;
+         }
+       }

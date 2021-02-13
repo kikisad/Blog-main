@@ -29,7 +29,7 @@ export default function PostPreview({
           </div>
           <div class="w-full sm:w-10 md:w-3 lg:w-14 xl:w-9">
           </div>
-          <div class="w-full md:w-2/3 lg:w-3/5 xl:w-3/4 xl:pl-7 ">
+          <div class="w-full md:w-2/3   xl:pl-7 wcorrect">
             <h3 className="block pb-3 md:pt-0 pt-5 lg:pt-0 text-lg leading-7 font-medium text-black hover:underline">
               <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
                 <a className="hover:underline">{title}</a>
