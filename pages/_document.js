@@ -14,6 +14,15 @@ export default class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="msapplication-config" content="/static/favicons/browserconfig.xml" />
           <meta name="theme-color" content="#ffffff" />
+          <meta name="google-site-verification" content="mpnzNcnLTC4QVORyMVtpJzRIKZ4Eqk4U85TJQfkA7OA" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5SVZ35C8S"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-B5SVZ35C8S');
+          </script>
         </Head>
         <body>
           <Main />
