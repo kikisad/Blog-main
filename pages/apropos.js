@@ -64,30 +64,88 @@ export default function apropos() {
           </motion.div>
           <div class="flex flex-row">
             <div class="w-full sm:w-3/5 h-64 bg-gray-100">
-
+              <div class="imageheroapropos object-cover mb-6 bg-gray-100 ">
+                <Image
+                  alt="Icon-article-design-blog-3D-2"
+                  className="imageapropos"
+                  layout="fill"
+                  objectFit="cover"
+                  priority="true"
+                  quality="100"
+                  src={'/static/images/3D_Image_Contact.png'}
+                />
+              </div>
             </div>
             <div class="w-full sm:w-2/5 pl-5 pr-5">
-              <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                Entrepreneurs
-                    </h2>
-              <h3 className="text-sm pt-2 text-gray-400">
-                Enfin encore étudiant, mais entrepreneur quand même !
-              </h3>
-              <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+                </svg>
+              </div>
+              <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
                 Me contacter
                     </h2>
-              <h3 className="text-sm pt-2 text-gray-400">
-                Enfin encore étudiant, mais entrepreneur quand même !
+              <h3 className="text-sm pt-1 text-gray-400">
+                <a href="mailto:killiancartignies@gmail.com" class="underline hover:text-blue-500 cursor-pointer">
+                  killiancartignies@gmail.com
+                </a>
               </h3>
-
-
+              <div class="pt-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h7v-5h4v5h7v-10h3zm-5 8h-3v-5h-8v5h-3v-10.26l7-6.912 7 6.99v10.182z" /></svg>
+              </div>
+              <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
+                Parisien mais Toulonnais
+                    </h2>
+              <h3 className="text-sm pt-1 text-gray-400">
+                Allons boire un café, si tu passe par <a href="https://fr.wikipedia.org/wiki/Toulon" class=" underline hover:text-blue-500 cursor-pointer">Toulon</a>
+              </h3>
             </div>
-
           </div>
-          <div class="ml-10 mr-10 mb-20 mt-10">
-            <h3 className="text-sm pt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in sem lectus. Fusce malesuada egestas massa. In condimentum lacus nisl, vitae porta leo pellentesque a. Maecenas aliquam posuere eleifend. Curabitur lobortis orci at risus vestibulum placerat. Aenean in dignissim tortor. Suspendisse a odio tincidunt, posuere risus vel, laoreet tortor. Sed sit amet ornare nulla. Praesent nec dapibus urna. Fusce at risus justo. Vivamus dapibus placerat interdum. Curabitur elementum dignissim velit eget accumsan.
-          </h3>
+          <div class="ml-10 mr-10 mt-10">
+            <h3 className="text-sm ">
+              <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
+                🇫🇷🇫🇷 Je suis Etudiant entrepreneur et Freelance UX & UI designer  ⬇️ <br />
+              </h2>
+              <p>
+                <br />
+                J'adore crée des interfaces qui procure une expariance aux visiteurs d'application et de site internet
+                <br />
+                Et mon travail consiste à améliorer/créer la meilleure expérience possible pour les visiteurs d'un site web.
+                J'aime donc comprendre les besoins et rencontrer de nouvelles personnes pour améliorer de plus en plus de choses !
+                <br />
+                Entreprneur toulonnais, j'essaye de faire de mes idée une réalitée.
+                <br />
+                <br />
+              </p>
+              <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
+                A aussi ! 🔥 Je suis l'un des co-fondateurs du podcast français : <a href="https://fr.wikipedia.org/wiki/Toulon" class=" underline hover:text-blue-500 cursor-pointer">🎧 Plus-Tard </a>
+              </h2>
+              <p>
+                Je parle avec des créatifs aux métier parfois différent, sur leurs workflow, et comment il gére leurs temps.
+                <br />
+                <br />
+                Je passe mon temps sur intrenet, et j'aime découvrir de nouvelle choses :
+                <br />
+                🚀 Entrepreneuriat
+                <br />
+                🎨 Art
+                <br />
+                🎧 Podcast
+                <br />
+                💎 NFT
+                <br />
+                🎯 UX & UI design
+                <br />
+                🖼 Conception graphique
+                <br />
+                🔮Web design
+                <br />
+                <br />
+                Je vis dans le sud de la France, dans la région de Toulon, au milieu des palmiers et des mouettes.
+                <br />
+                Si un jour vous passez par là, pourquoi ne pas discuter autour d'un café.
+              </p>
+            </h3>
           </div>
 
 

@@ -59,20 +59,16 @@ export default function Herobanner() {
         </motion.div>
 
         <motion.div variants={fadeInUp} key="modal-herobanner-2" class=" w-full">
-          <div class="relative">
-            <div class="Positionimg1">
-              <Image
-                alt="Icon-article-design-blog-3D-2"
-                className=" "
-                height={1131}
-                width={2100}
-                priority="true"
-                quality="100"
-                src={'/static/images/3D_scene_total_2.png'}
-              />
-            </div>
-            <div class="hidden md:block  xl:mb-20 w-full h-80 mb-12 bg-gray-100 ">
-            </div>
+          <div class="imageheroheader object-cover mb-6 bg-gray-100 ">
+            <Image
+              alt="Icon-article-design-blog-3D-2"
+              className="imageheader"
+              layout="fill"
+              objectFit="cover"
+              priority="true"
+              quality="100"
+              src={'/static/images/3D_scene_total_8.png'}
+            />
           </div>
         </motion.div>
 

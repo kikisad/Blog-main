@@ -37,7 +37,7 @@ export default function Dashboard() {
 
 
         <div>
-            <div class="text-center pb-10 pt-10">
+            <div class="text-center pb-1 pt-10">
                 <motion.div
                     key="modal-morestories-4"
                     initial={{ y: 30, opacity: 0 }}
