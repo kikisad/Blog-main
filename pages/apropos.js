@@ -39,7 +39,7 @@ export default function apropos() {
 
     <Layout>
       <NextSeo
-        title="A propos de – killian étudiant entrepreneur"
+        title="A propos de moi – killian étudiant entrepreneur"
         canonical="https://blog.killiancartignies.com/apropos"
         openGraph={{
           url: 'https://blog.killiancartignies.com/apropos',
@@ -82,10 +82,10 @@ export default function apropos() {
                   <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
                 </svg>
               </div>
-              <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
+              <h2 className="text-sm sm:text-base mt-2 font-bold tracking-tighter leading-tight">
                 Me contacter
                     </h2>
-              <h3 className="text-sm pt-1 text-gray-400">
+              <h3 className="text-xs sm:text-sm pt-1 text-gray-400">
                 <a href="mailto:killiancartignies@gmail.com" class="underline hover:text-blue-500 cursor-pointer">
                   killiancartignies@gmail.com
                 </a>
@@ -93,10 +93,10 @@ export default function apropos() {
               <div class="pt-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h7v-5h4v5h7v-10h3zm-5 8h-3v-5h-8v5h-3v-10.26l7-6.912 7 6.99v10.182z" /></svg>
               </div>
-              <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
+              <h2 className="text-sm sm:text-base  mt-2 font-bold tracking-tighter leading-tight">
                 Parisien mais Toulonnais
                     </h2>
-              <h3 className="text-sm pt-1 text-gray-400">
+              <h3 className="text-xs sm:text-sm pt-1 text-gray-400">
                 Allons boire un café, si tu passe par <a href="https://fr.wikipedia.org/wiki/Toulon" class=" underline hover:text-blue-500 cursor-pointer">Toulon</a>
               </h3>
             </div>
@@ -108,12 +108,12 @@ export default function apropos() {
               </h2>
               <p>
                 <br />
-                J'adore crée des interfaces qui procure une expariance aux visiteurs d'application et de site internet
+                J'adore crée des interfaces qui procure une expariance aux visiteurs d'application et de site internet.
                 <br />
                 Et mon travail consiste à améliorer/créer la meilleure expérience possible pour les visiteurs d'un site web.
                 J'aime donc comprendre les besoins et rencontrer de nouvelles personnes pour améliorer de plus en plus de choses !
                 <br />
-                Entreprneur toulonnais, j'essaye de faire de mes idée une réalitée.
+                J'entreprend, et réalise des side projet pour mamuser et découvrire d'autre dmomaine.
                 <br />
                 <br />
               </p>
@@ -150,7 +150,7 @@ export default function apropos() {
 
 
           <motion.div variants={stagger} key="modal-aporpos-2" class="w-full mw-auto mb-20 lg:mt-10 lg:mb-20 sm:mt-10  mx-auto ">
-            <div class="grid grid-cols-2 md:grid-cols-3 sm:gap-x-10 sm:gap-y-14 gap-x-5 gap-y-5 items-center text-center	 ">
+            <div class="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 sm:gap-x-6 px-12 sm:px-10 sm:gap-y-14 gap-x-5 gap-y-5 mt-10 items-center text-center	 ">
 
               <motion.div variants={fadeInUp} key="modal-aporpos-3" >
                 <Image
@@ -166,8 +166,8 @@ export default function apropos() {
                 <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
                   Explorateurs
                     </h2>
-                <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  Technologie, crypto, montre, vidéo, typographie, podcast…
+                <h3 className="text-sm pt-2  sm:px-5 pt-2 text-gray-400">
+                  Quelque un des domaine qui me passionnes : La crypto, les montres, la typographie, les podcasts…
                     </h3>
               </motion.div>
               <motion.div variants={fadeInUp} key="modal-aporpos-4" >
@@ -181,10 +181,10 @@ export default function apropos() {
                   src={'/static/images/Icon-Apropos-De-moi-design-blog-3D-message-Vert.png'}
                 />
                 <h2 className="text-base mt-5 font-bold tracking-tighter leading-tight">
-                  Explorateurs
+                  Entrepreneurs
                     </h2>
                 <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  Technologie, crypto, montre, vidéo, typographie, podcast…
+                  Quelque un des domaine qui me passionnes : La crypto, les montres, la typographie, les podcasts…
                     </h3>
               </motion.div>
 
@@ -202,7 +202,7 @@ export default function apropos() {
                   Ma philosophie
                     </h2>
                 <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  Apporter un petit plus, pour crée une émotion par l'image
+                  Quelque un des domaine qui me passionnes : La crypto, les montres, la typographie, les podcasts…
                     </h3>
               </motion.div>
             </div>

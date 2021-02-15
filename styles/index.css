@@ -283,3 +283,7 @@ width: 100%;
 overflow: hidden;
 z-index: 2;
 }
+
+.switchtogif:hover{
+  display: none
+}

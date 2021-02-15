@@ -25,8 +25,8 @@ const fadeInUp = {
 export default function Header({ children }) {
 
   return (
-    <motion.div variants={fadeInUp} key="modal-header-1" className="bg-white px-10 ">
-      <nav className="pt-6 pb-8   bg-white bg-opacity-90">
+    <motion.div variants={fadeInUp} key="modal-header-1" className="bg-white px-5 sm:px-10 ">
+      <nav className="pt-3 pb-3   bg-white bg-opacity-90">
         <div class="flex justify-between">
           <div>
             <NextLink href="/" scroll={false}>
@@ -50,8 +50,13 @@ export default function Header({ children }) {
                 </a>
             </NextLink>
             <NextLink href="https://anchor.fm/plustard" scroll={false}>
-              <a href="#" className=" ">
+              <a href="#" className=" pr-3 ">
                 Podcast
+                </a>
+            </NextLink>
+            <NextLink href="/pourquoi" scroll={false}>
+              <a href="#" className=" ">
+                Articles
                 </a>
             </NextLink>
           </div>
