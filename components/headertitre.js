@@ -32,7 +32,7 @@ const fadeInUp = {
 export default function headertitre() {
 
   return (
-    <motion.div variants={stagger} key="modal-headertitre" class="ml-10">
+    <motion.div variants={stagger} key="modal-headertitre" class="ml-5">
 
 
       <motion.div variants={fadeInUp} key="modal-headertitre-2"  >

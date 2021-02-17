@@ -13,49 +13,45 @@ export default function PostPreview({
   slug,
 }) {
   return (
-    <div class=" border-b border-t sm:pr-10 py-10 px-10 > ">
-      <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
-        <div class="flex flex-wrap">
-          <div class="w-auto flex-shrink-0 my-auto  ">
-            <div className="my-auto">
-              <CoverImage
-                slug={slug}
-                title={title}
-                src={coverImage}
-                height={150}
-                width={200}
-              />
-            </div>
-          </div>
-          <div class="w-full sm:w-10 md:w-3 lg:w-14 xl:w-9">
-          </div>
-          <div class="w-full md:w-2/3   xl:pl-7 wcorrect">
-            <h3 className="block pb-3 md:pt-0 pt-5 lg:pt-0 text-lg leading-7 font-medium text-black hover:underline">
-              <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
-                <a className="hover:underline">{title}</a>
-              </Link>
-            </h3>
-            <p className="text-sm text-gray-500 pb-4">{excerpt}</p>
-            <div class="flex justify-between">
-              <div class="flex-initial flex flex-row ...">
-                <div>
-                  <p className="text-sm text-gray-500 sm:pr-20 hover:underline ">Lire la suite .... </p>
+    <>
+      <section class="text-gray-600 body-font border-b border-t overflow-hidden">
+        <Link as={`/posts/${slug}`} href="/posts/[slug] scroll={false}">
+          <div class=" px-5 py-10 mx-auto ">
+            <div class="-my-8 divide-y-2 divide-gray-100">
+              <div class="py-8 flex flex-wrap md:flex-nowrap justify-center	 items-center">
+                <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                  <span class="font-semibold title-font text-gray-700 ">
+                    <CoverImage
+                      slug={slug}
+                      title={title}
+                      src={coverImage}
+                      height={150}
+                      width={200}
+                    />
+                  </span>
                 </div>
-                <div>
-                  <div className="pl-5 pt-1 arrowanimate">
-                    <svg width="18" height="18" alt="Fleche-redirection" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12H21M21 12L14 5M21 12L14 19" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <div class="md:flex-grow ">
+                  <h2 class="text-center md:text-left text-2xl font-medium text-gray-900 title-font mb-2">{title}</h2>
+                  <p class="text-center md:text-left leading-relaxed">{excerpt}</p>
+                  <div class="flex  justify-center md:justify-start	  ">
+                    <a class=" text-gray-400 inline-flex justify-center items-center mt-4">Lire la suite ....
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
-              <div className="text-xs	pt-1 text-gray-700 flex-initial">
-                <DateFormatter dateString={date} />
-              </div>
-
             </div>
           </div>
-        </div>
-      </Link>
-    </div>
+        </Link>
+
+      </section>
+
+
+
+    </>
 
   )
 }

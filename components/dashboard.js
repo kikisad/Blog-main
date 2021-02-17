@@ -37,7 +37,7 @@ export default function Dashboard() {
 
 
         <div>
-            <div class="text-center pb-1 pt-10">
+            <div class="text-center pb-1 pt-5">
                 <motion.div
                     key="modal-morestories-4"
                     initial={{ y: 30, opacity: 0 }}
@@ -63,8 +63,8 @@ export default function Dashboard() {
                     </div>
                     <div class=" lg:w-0.5 lg:h-24 lg:bg-gray-200 lg:mx-6 "> </div>
                     <div>
-                        <motion.div variants={fadeInUp} key="modal-morestories-3" class="flex flex-wrap sm:p-5 pb-7 pr-10 sm:pb-0 sm:pr-0 ">
-                            <div class="flex flex-nowrap overflow-hidden">
+                        <motion.div variants={fadeInUp} key="modal-morestories-3" class="flex flex-wrap sm:p-5 pb-5 pt-5  ml-0 md:ml-5 pr-10 sm:pb-0 sm:pr-0 ">
+                            <div class="flex flex-nowrap overflow-hidden  ">
                                 <motion.div
                                     key="modal-morestories-4"
                                     initial={{ y: 30, opacity: 0 }}
@@ -81,7 +81,7 @@ export default function Dashboard() {
                                         src={'/static/images/Icon-Argent-Blog-Vente-En-Ligne.png'}
                                     />
                                 </motion.div>
-                                <div class="flex flex-col justify-center items-start ml-3">
+                                <div class="flex flex-col items-start ml-6 ">
                                     <h4 class="text-gray-800 font-xs ">
                                         Ventes en ligne
                             </h4>
@@ -113,7 +113,7 @@ export default function Dashboard() {
                                         src={'/static/images/Icon-unsplsh-photo.png'}
                                     />
                                 </motion.div>
-                                <div class="flex flex-col justify-center items-start ml-3 pr-5">
+                                <div class="flex flex-col justify-center items-start ml-6 pr-5">
                                     <h4 class="text-gray-800 font-xs ">
                                         Vues Unsplash
                             </h4>

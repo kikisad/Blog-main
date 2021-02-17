@@ -62,12 +62,12 @@ export default function apropos() {
               Quelques petites choses à savoir sur moi
                 </h3>
           </motion.div>
-          <div class="flex flex-row">
-            <div class="w-full sm:w-3/5 h-64 bg-gray-100">
+          <div class="flex flex-row items-center">
+            <div class="w-full sm:w-3/5 h-64 bg-gray-100 ">
               <div class="imageheroapropos object-cover mb-6 bg-gray-100 ">
                 <Image
                   alt="Icon-article-design-blog-3D-2"
-                  className="imageapropos"
+                  className="imageapropos "
                   layout="fill"
                   objectFit="cover"
                   priority="true"

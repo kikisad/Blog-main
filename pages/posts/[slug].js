@@ -94,17 +94,9 @@ export default function Post({ post, morePosts, preview }) {
                     date={post.date}
                   />
                 </motion.div>
-                <motion.div
-                  key="modal-slug-2"
-                  initial={{ x: -30, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{
-                    duration: 0.3,
-                    ease: easing,
-                  }} >
 
-                  <PostBody content={post.content} />
-                </motion.div>
+
+                <PostBody content={post.content} />
                 <Divider />
 
                 <Avatar />

@@ -28,7 +28,7 @@ export default function NowPlaying() {
 
 
   return (
-    <div className="flex flex-wrap  sm:p-5 mb-8 ">
+    <div className="flex flex-wrap justify-center	sm:p-5">
       <motion.div
         key="modal-nowplaying-1"
         initial={{ y: 30, opacity: 0 }}
@@ -46,7 +46,7 @@ export default function NowPlaying() {
         />
       </motion.div>
       <motion.div variants={fadeInUp} key="modal-nowplaying-2">
-        <div className="flex flex-col justify-center items-start ml-3">
+        <div className="flex flex-col items-start pt-1  ml-6">
           <a
             className="text-gray-800 font-xs "
             href={data?.songUrl}
