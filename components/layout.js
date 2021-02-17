@@ -58,7 +58,7 @@ export default function Layout({ preview, children }) {
                       <NextLink href="/" scroll={false} >
                         <a className="p-1 text-sm sm:text-xl font-bold sm:p-4 text-gray-900 ">
                           <Image
-                            alt="Icon-article-design-blog-3D-2"
+                            alt="Icon-Logo-face-killian-cartignies-blog"
                             className="rounded-full"
                             height={60}
                             width={60}
