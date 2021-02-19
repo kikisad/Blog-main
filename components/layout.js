@@ -97,7 +97,6 @@ export default function Layout({ preview, children }) {
                         </NextLink>
                       </div>
                     </motion.div>
-
                     <motion.div
                       key="modal-navigation-3"
                       initial={{ y: -60, opacity: 0 }}
