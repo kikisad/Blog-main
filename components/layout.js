@@ -120,9 +120,9 @@ export default function Layout({ preview, children }) {
                       transition={{ delay: 0.6, ease: easing, duration: 1 }}
                     >
                       <div class="py-2">
-                        <NextLink href="/pourquoi" scroll={false}>
+                        <NextLink href="/Touslesarticles" scroll={false}>
                           <a className="p-1 pl-3 pr-3 text-sm sm:text-base font-bold		pb-5 sm:p-4  text-gray-900 hover:text-red-300  ">
-                            All posts
+                            Articles
                     </a>
                         </NextLink>
                       </div>

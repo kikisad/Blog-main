@@ -39,11 +39,12 @@ export default function apropos() {
 
     <Layout>
       <NextSeo
-        title="A propos de moi – killian étudiant entrepreneur"
+        title="A propos de moi – killian cartignies étudiant entrepreneur"
+        description="Tu venx en savoir plus sur moi ? - killian cartignies étudiant entrepreneur"
         canonical="https://blog.killiancartignies.com/apropos"
         openGraph={{
           url: 'https://blog.killiancartignies.com/apropos',
-          title: 'A propos de moi – killian étudiant entrepreneur'
+          title: 'A propos de moi – killian cartignies étudiant entrepreneur'
         }}
       />
 
@@ -184,8 +185,7 @@ export default function apropos() {
                   Entrepreneurs
                     </h2>
                 <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  Quelque un des domaine qui me passionnes : La crypto, les montres, la typographie, les podcasts…
-                    </h3>
+                  J'essaye de faire de mes "side projets" une réaliter ! Imaginée, crée, construire, vendre, recommencer.                    </h3>
               </motion.div>
 
               <motion.div variants={fadeInUp} key="modal-aporpos-6">
@@ -202,7 +202,7 @@ export default function apropos() {
                   Ma philosophie
                     </h2>
                 <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  Quelque un des domaine qui me passionnes : La crypto, les montres, la typographie, les podcasts…
+                  Aucune phrase ne remplacera une image. Crée une univers au travers de l'image pour donner envie au personne de te suivre.
                     </h3>
               </motion.div>
             </div>

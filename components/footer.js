@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center mt-10 mb-5 sm:mt-8 sm:mb-14">
       <div className="flex space-x-4 mb-4">
-        <ExternalLink href="https://twitter.com/saumon_">
+        <ExternalLink href="https://twitter.com/kikisad_">
           <span className="sr-only">Twitter</span>
           <svg className="h-5 w-5" viewBox="0 0 24 24">
             <g
@@ -29,7 +29,7 @@ export default function Footer() {
             </g>
           </svg>
         </ExternalLink>
-        <ExternalLink href="https://www.linkedin.com/in/killiancartignies">
+        <ExternalLink href="https://www.linkedin.com/in/killian-cartignies-41ab6911b/">
           <span className="sr-only">LinkedIn</span>
           <svg className="h-5 w-5" viewBox="0 0 24 24">
             <g
@@ -46,8 +46,8 @@ export default function Footer() {
           </svg>
         </ExternalLink>
         <ExternalLink href="https://dribbble.com/KillianCartignies">
-          <span className="sr-only">Dribble</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="-1 -1 25 25"><path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"stroke="#6B7280" fill="#6B7280" stroke-width="0.1"  /><g color="#000"></g></svg>
+          <span className="sr-only">Dribbble</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="-1 -1 25 25"><path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z" stroke="#6B7280" fill="#6B7280" stroke-width="0.1" /><g color="#000"></g></svg>
         </ExternalLink>
         <ExternalLink href="mailto:killiancartignies@gmail.com">
           <span className="sr-only">Email</span>
@@ -66,18 +66,18 @@ export default function Footer() {
         </ExternalLink>
       </div>
       <div className="space-x-3">
-      <Link href="/">
-          <a className="text-sm text-gray-500 hover:text-gray-600"> *Home</a>
+        <Link href="/">
+          <a className="text-sm text-gray-500 hover:text-gray-600"> *Maison</a>
         </Link>
-      <ExternalLink href="https://anchor.fm/plustard">*Podcast</ExternalLink>
+        <ExternalLink href="https://anchor.fm/plustard">*Podcast</ExternalLink>
         <Link href="/apropos">
           <a className="text-sm text-gray-500 hover:text-gray-600"> *A propos</a>
         </Link>
       </div>
       <div className=" text-center text-xs mr-10 ml-10 md:mt-4 text-gray-500 hover:text-gray-600">
-      © 2020-Présent Killian Cartignies. All Rights Reserved.
+        © 2020-Présent Killian Cartignies. All Rights Reserved.
       </div>
     </footer>
-    
+
   );
 }

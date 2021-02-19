@@ -1,8 +1,5 @@
 import MoreStories from '../components/more-stories-all'
-
 import { NextSeo } from 'next-seo';
-
-
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import { motion } from "framer-motion";
@@ -27,17 +24,18 @@ const fadeInUp = {
 
 
 
-export default function Index({ allPosts }) {
+export default function Touslesarticles({ allPosts }) {
   const morePosts = allPosts.slice(0)
 
   return (
     <>
       <NextSeo
-        title="Tous les articles du blog – killian étudiant entrepreneur"
+        title="Listes de tous les articles du blog – killian étudiant entrepreneur"
+        description="Listes de l'ensemble des articles du blog – killian cartignies étudiant entrepreneur"
         canonical="https://blog.killiancartignies.com/pourquoi"
         openGraph={{
           url: 'https://blog.killiancartignies.com/pourquoi',
-          title: 'Tous les articles du blog – killian étudiant entrepreneur'
+          title: 'Listes de tous les articles du blog – killian étudiant entrepreneur'
         }}
       />
       <motion.div

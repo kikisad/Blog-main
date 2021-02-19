@@ -13,11 +13,12 @@ export default function NotFound() {
   return (
     <Container>
       <NextSeo
-        title="Erreur 404 – killian étudiant entrepreneur"
+        title="Erreur 404 – killian cartignies étudiant entrepreneur"
+        description="Aïe mauvaise page – killian cartignies étudiant entrepreneur"
         canonical="https://blog.killiancartignies.com/404"
         openGraph={{
           url: 'https://blog.killiancartignies.com/404',
-          title: 'Erreur 404 – killian étudiant entrepreneur'
+          title: 'Erreur 404 – killian cartignies étudiant entrepreneur'
         }}
       />
       <motion.div

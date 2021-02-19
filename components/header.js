@@ -54,7 +54,7 @@ export default function Header({ children }) {
                 Podcast
                 </a>
             </NextLink>
-            <NextLink href="/pourquoi" scroll={false}>
+            <NextLink href="/Touslesarticles" scroll={false}>
               <a href="#" className=" ">
                 Articles
                 </a>
