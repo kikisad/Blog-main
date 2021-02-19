@@ -139,7 +139,7 @@ export default function apropos() {
                 <br />
                 🖼 Conception graphique
                 <br />
-                🔮Web design
+                🔮 Web design
                 <br />
                 <br />
                 Je vis dans le sud de la France, dans la région de Toulon, au milieu des palmiers et des mouettes.
@@ -210,8 +210,6 @@ export default function apropos() {
           </motion.div>
           <div>
           </div>
-
-
         </div>
       </motion.div>
     </Layout>
