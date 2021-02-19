@@ -185,7 +185,8 @@ export default function apropos() {
                   Entrepreneurs
                     </h2>
                 <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  J'essaye de faire de mes "side projets" une réaliter ! Imaginée, crée, construire, vendre, recommencer.                    </h3>
+                  Entrepreneur oui mais créateurs, J'adore les "side projets", imaginée, crée, construire, vendre, recommencer.
+                  </h3>
               </motion.div>
 
               <motion.div variants={fadeInUp} key="modal-aporpos-6">

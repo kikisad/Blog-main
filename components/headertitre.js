@@ -41,7 +41,7 @@ export default function headertitre() {
 
       </h2>
         <h3 id="articles" className="pt-2 pb-10 text-gray-500 text-sm pr-10 sm:text-normal sm:pr-0 ">
-          Tous les articles récemments publié sur l'entreprenariat
+          Tous les articles récemment publiés sur l'entreprenariat.
       </h3>
       </motion.div>
     </motion.div>

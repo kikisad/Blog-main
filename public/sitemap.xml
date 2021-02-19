@@ -6,6 +6,11 @@
   </url>
 
   <url>
+    <loc>https://blog.killiancartignies.com/Touslesarticles</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
     <loc>https://blog.killiancartignies.com/apropos</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -17,11 +22,6 @@
 
   <url>
     <loc>https://blog.killiancartignies.com/posts</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://blog.killiancartignies.com/pourquoi</loc>
     <changefreq>weekly</changefreq>
   </url>
 
