@@ -1,5 +1,7 @@
 import DateFormatter from '../components/date-formatter'
 import CoverImage from './cover-image'
+import Image from 'next/image'
+
 import Link from 'next/link'
 
 
@@ -25,8 +27,9 @@ export default function PostPreview({
                       slug={slug}
                       title={title}
                       src={coverImage}
-                      height={150}
-                      width={200}
+                      height={140}
+                      width={230}
+                      quality={100}
                     />
                   </span>
                 </div>

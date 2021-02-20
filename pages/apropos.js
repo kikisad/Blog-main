@@ -104,9 +104,9 @@ export default function apropos() {
           </div>
           <div class="ml-10 mr-10 mt-10">
             <h3 className="text-sm ">
-              <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
-                🇫🇷🇫🇷 Je suis Etudiant entrepreneur et Freelance UX & UI designer  ⬇️ <br />
-              </h2>
+              <h1 className="text-base mt-2 font-bold tracking-tighter leading-tight">
+                🇫🇷🇫🇷  Je suis étudiant entrepreneur et freelance UX & UI designer  ⬇️ <br />
+              </h1>
               <p>
                 <br />
                 J'adore crée des interfaces qui procure une expariance aux visiteurs d'application et de site internet.
@@ -185,7 +185,7 @@ export default function apropos() {
                   Entrepreneurs
                     </h2>
                 <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  Entrepreneur oui mais créateurs, J'adore les "side projets", imaginée, crée, construire, vendre, recommencer.
+                  Entrepreneur oui mais créateurs. J'adore les "side projets", imaginée, crée, construire, vendre, recommencer.
                   </h3>
               </motion.div>
 
@@ -203,7 +203,7 @@ export default function apropos() {
                   Ma philosophie
                     </h2>
                 <h3 className="text-sm pt-2 sm:px-5 pt-2 text-gray-400">
-                  Aucune phrase ne remplacera une image. Crée une univers au travers de l'image pour donner envie au personne de te suivre.
+                  Entreprnedre et crée des idées à mon images, qui reponde au besoin d'aujourd'hui mais aussi de demain.
                     </h3>
               </motion.div>
             </div>

@@ -6,14 +6,15 @@ export default function CoverImage({ title, src, slug, height, width }) {
   const image = (
     <Image
       src={src}
-      alt={`Cover Image for ${title}`}
+      alt={`Img_couverture_${title}`}
       className={cn('shadow-sm', {
         'hover:shadow-md transition-shadow duration-200 rounded-lg': slug,
       })}
       layout="fixed"
       width={width}
       height={height}
-      
+      quality={100}
+
     />
   )
   return (
@@ -23,8 +24,8 @@ export default function CoverImage({ title, src, slug, height, width }) {
           <a aria-label={title}>{image}</a>
         </Link>
       ) : (
-        image
-      )}
+          image
+        )}
     </div>
   )
 }

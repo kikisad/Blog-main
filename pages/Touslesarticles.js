@@ -49,9 +49,9 @@ export default function Touslesarticles({ allPosts }) {
             <h2 className="text-3xl sm:mt-5 md:text-7xl font-bold tracking-tighter leading-tight">
               Tous les articles
           </h2>
-            <h3 id="articles" className="pr-10 pt-2 pb-10 text-gray-500">
-              L'ensemble des articles sur des sujets qui m'interesse !
-          </h3>
+            <h1 id="articles" className="pr-10 pt-2 pb-10 text-gray-500">
+              L'ensemble des articles du blog !
+          </h1>
           </motion.div>
           <MoreStories posts={morePosts} />
         </Layout>

@@ -94,15 +94,9 @@ export default function Post({ post, morePosts, preview }) {
                     date={post.date}
                   />
                 </motion.div>
-
-
                 <PostBody content={post.content} />
                 <Divider />
-
                 <Avatar />
-
-
-
               </article>
             </>
           )}
@@ -122,6 +116,7 @@ export async function getStaticProps({ params }) {
     'author',
     'content',
     'ogImage',
+    'coverImageLanding',
     'coverImage',
   ])
   const content = await markdownToHtml(post.content || '')

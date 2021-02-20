@@ -1,3 +1,4 @@
+
 module.exports = {
   images: {
     domains: [
@@ -5,7 +6,9 @@ module.exports = {
       'pbs.twimg.com' // Twitter Profile Picture
     ]
   },
+
   webpack(config, options) {
+
     const { isServer } = options;
     if (isServer) {
       require('./scripts/generate-sitemap');
