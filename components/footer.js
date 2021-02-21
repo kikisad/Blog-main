@@ -71,7 +71,7 @@ export default function Footer() {
         </Link>
         <ExternalLink href="https://anchor.fm/plustard">*Podcast</ExternalLink>
         <Link href="/apropos">
-          <a className="text-sm text-gray-500 hover:text-gray-600"> *A propos</a>
+          <a className="text-sm text-gray-500 hover:text-gray-600"> * À propos</a>
         </Link>
       </div>
       <div className=" text-center text-xs mr-10 ml-10 md:mt-4 text-gray-500 hover:text-gray-600">

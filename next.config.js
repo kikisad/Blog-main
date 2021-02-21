@@ -1,5 +1,4 @@
-
-module.exports = {
+©module.exports = {
   images: {
     domains: [
       'i.scdn.co', // Spotify Album Art
@@ -8,10 +7,12 @@ module.exports = {
   },
 
   webpack(config, options) {
-
     const { isServer } = options;
-    if (isServer) {
+    if (!isServer) {
       require('./scripts/generate-sitemap');
+      config.node = {
+        fs: 'empty'
+      };
     }
     config.module.rules.push({
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
@@ -25,15 +26,12 @@ module.exports = {
             publicPath: `${config.assetPrefix}/_next/static/images/`,
             outputPath: `${isServer ? '../' : ''}static/images/`,
             name: '[name]-[hash].[ext]',
-            esModule: config.esModule || false,
-          },
-        },
-      ],
+            esModule: config.esModule || false
+          }
+        }
+      ]
     });
 
     return config;
-  },
-
+  }
 };
-
-
