@@ -287,3 +287,6 @@ z-index: 2;
 .switchtogif:hover{
   display: none
 }
+.paddingarticles{
+  padding:30px;
+}
