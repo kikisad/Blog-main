@@ -1,5 +1,6 @@
-const title = "Blog d'un étudiant entrepreneurs Toulonnais";
-const description = "Étudiant Entrepreneur, je raconter mes aventures et mes expériances sur la réalisation de mes projets sur ce blog";
+const title = "Blog d'un étudiant entrepreneur Toulonnais";
+const description =
+  'Étudiant Entrepreneur, je raconte mes aventures et mes expériences sur la réalisation de mes projets sur ce blog.';
 
 const SEO = {
   title,

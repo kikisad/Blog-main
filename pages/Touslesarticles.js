@@ -27,13 +27,13 @@ export default function Touslesarticles({ allPosts }) {
   return (
     <>
       <NextSeo
-        title="Listes de tous les articles du blog – killian étudiant entrepreneur"
-        description="Listes de l'ensemble des articles du blog – killian cartignies étudiant entrepreneur"
-        canonical="https://blog.killiancartignies.com/pourquoi"
+        title="Listes de tous les articles du blog – Killian étudiant entrepreneur"
+        description="Listes de tous les articles du blog – Killian étudiant entrepreneur"
+        canonical="https://blog.killiancartignies.com/Touslesarticles"
         openGraph={{
-          url: 'https://blog.killiancartignies.com/pourquoi',
+          url: 'https://blog.killiancartignies.com/Touslesarticles',
           title:
-            'Listes de tous les articles du blog – killian étudiant entrepreneur'
+            'Listes de tous les articles du blog – Killian étudiant entrepreneur'
         }}
       />
       <motion.div

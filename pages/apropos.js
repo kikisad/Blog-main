@@ -35,12 +35,12 @@ export default function apropos() {
   return (
     <Layout>
       <NextSeo
-        title="A propos de moi – killian cartignies étudiant entrepreneur"
+        title="À propos de moi – killian cartignies étudiant entrepreneur"
         description="Tu venx en savoir plus sur moi ? - killian cartignies étudiant entrepreneur"
         canonical="https://blog.killiancartignies.com/apropos"
         openGraph={{
           url: 'https://blog.killiancartignies.com/apropos',
-          title: 'A propos de moi – killian cartignies étudiant entrepreneur'
+          title: 'À propos de moi – killian cartignies étudiant entrepreneur'
         }}
       />
 
@@ -127,21 +127,21 @@ export default function apropos() {
               </h1>
               <p>
                 <br />
-                J'adore crée des interfaces qui procure une expariance aux
-                visiteurs d'application et de site internet.
+                J'adore créer des interfaces qui procurent une expérience aux
+                visiteurs d'applications et de sites internets.
                 <br />
                 Et mon travail consiste à améliorer/créer la meilleure
                 expérience possible pour les visiteurs d'un site web. J'aime
                 donc comprendre les besoins et rencontrer de nouvelles personnes
                 pour améliorer de plus en plus de choses !
                 <br />
-                J'entreprend, et réalise des side projet pour mamuser et
-                découvrire d'autre dmomaine.
+                J'entreprend, et réalise des sides projects pour m'amuser et
+                découvrir d'autres domaines.
                 <br />
                 <br />
               </p>
               <h2 className="text-base mt-2 font-bold tracking-tighter leading-tight">
-                A aussi ! 🔥 Je suis l'un des co-fondateurs du podcast français
+                À aussi ! 🔥 Je suis l'un des cofondateurs du podcast français :
                 :{' '}
                 <a
                   href="https://fr.wikipedia.org/wiki/Toulon"
@@ -151,12 +151,12 @@ export default function apropos() {
                 </a>
               </h2>
               <p>
-                Je parle avec des créatifs aux métier parfois différent, sur
-                leurs workflow, et comment il gére leurs temps.
+                Je parle avec des créatifs aux métiers parfois différents, sur
+                leurs workflow, et comment il gère leur temps.
                 <br />
                 <br />
-                Je passe mon temps sur intrenet, et j'aime découvrir de nouvelle
-                choses :
+                Je passe mon temps sur internet, et j'aime découvrir de
+                nouvelles choses :
                 <br />
                 🚀 Entrepreneuriat
                 <br />
@@ -177,7 +177,7 @@ export default function apropos() {
                 milieu des palmiers et des mouettes.
                 <br />
                 Si un jour vous passez par là, pourquoi ne pas discuter autour
-                d'un café.
+                d'un café. d'un café.
               </p>
             </h3>
           </div>
@@ -204,7 +204,7 @@ export default function apropos() {
                   Explorateurs
                 </h2>
                 <h3 className="text-sm sm:px-5 pt-2 text-gray-400">
-                  Quelque un des domaine qui me passionnes : La crypto, les
+                  Quelques-uns des domaines qui me passionnent : La crypto, les
                   montres, la typographie, les podcasts…
                 </h3>
               </motion.div>
@@ -224,8 +224,8 @@ export default function apropos() {
                   Entrepreneurs
                 </h2>
                 <h3 className="text-sm sm:px-5 pt-2 text-gray-400">
-                  Entrepreneur oui mais créateurs. J'adore les "side projets",
-                  imaginée, crée, construire, vendre, recommencer.
+                  Entrepreneur oui mais créateur. J'adore les "side projects",
+                  imaginer, créer, construire, vendre, recommencer.
                 </h3>
               </motion.div>
 
@@ -245,7 +245,7 @@ export default function apropos() {
                   Ma philosophie
                 </h2>
                 <h3 className="text-sm sm:px-5 pt-2 text-gray-400">
-                  Entreprnedre et crée des idées à mon images, qui reponde au
+                  Entreprendre et créer des idées à mon image, qui réponde au
                   besoin d'aujourd'hui mais aussi de demain.
                 </h3>
               </motion.div>

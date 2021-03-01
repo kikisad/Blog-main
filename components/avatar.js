@@ -65,9 +65,10 @@ export default function Avatar() {
                   Killian cartignies
                 </h2>
                 <h3 className="text-sm pt-2 text-gray-400">
-                  Explorateur d'univers artistique et entrepreneurs, spécialisé
-                  dans l'expérience utilisateur. Je conçois et crée des
-                  interfaces web et mobile répondant au besoin d'aujourd'hui.
+                  Explorateur d'univers artistiques et d’entrepreneurs,
+                  spécialisés dans l'expérience utilisateur. Je conçois et crée
+                  des interfaces web et mobiles répondant au besoin
+                  d'aujourd'hui.
                 </h3>
               </div>
               <div class=" my-auto"></div>

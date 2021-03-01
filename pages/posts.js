@@ -1,40 +1,53 @@
-
-import MoreStories from '../components/more-stories'
-import Layout from '../components/layout'
-import { getAllPosts } from '../lib/api'
-import Link from 'next/link'
+import MoreStories from '../components/more-stories';
+import Layout from '../components/layout';
+import { getAllPosts } from '../lib/api';
+import Link from 'next/link';
 import Image from 'next/image';
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-
 
 export default function Blog({ allPosts }) {
   return (
     <>
       <Layout class="w-full">
         <NextSeo
-          title="Tous les posts du blog – killian étudiant entrepreneur"
+          title="Tous les posts du blog – Killian étudiant entrepreneur          "
           canonical="https://blog.killiancartignies.com/posts"
           openGraph={{
             url: 'https://blog.killiancartignies.com/posts',
-            title: 'Tous les posts de mon blog - killian étudiant entrepreneur'
+            title:
+              'Tous les posts du blog – Killian étudiant entrepreneur            '
           }}
         />
         <motion.div
           key="modal-aporpos"
-          initial='initial'
-          animate='animate'
+          initial="initial"
+          animate="animate"
           exit={{ opacity: 0 }}
         >
           <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
             <div class="flex mt-10">
               <div class="flex-initial">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 12H3M3 12L10 5M3 12L10 19" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 12H3M3 12L10 5M3 12L10 19"
+                    stroke="#000"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
               </div>
               <div class="flex-1 ml-3 align-middle">
                 <Link
                   href={{
-                    pathname: "/",
+                    pathname: '/'
                   }}
                 >
                   <a>Acceuil </a>
@@ -51,21 +64,18 @@ export default function Blog({ allPosts }) {
               />
               <h2 className="text-6xl mt-5 md:text-7xl font-bold tracking-tighter leading-tight">
                 L'ensemble des articles
-          </h2>
+              </h2>
               <h3 className="pt-2 pb-10 text-gray-400">
-                Découvret tous mes articles, sur l'entreprenariat étudiant
-          </h3>
+                Découvrez tous mes articles, sur l'entrepreneuriat étudiant
+              </h3>
             </div>
-            <div>
-
-            </div>
+            <div></div>
             <MoreStories posts={allPosts} />
-
           </div>
         </motion.div>
       </Layout>
     </>
-  )
+  );
 }
 
 export async function getStaticProps() {
@@ -76,10 +86,10 @@ export async function getStaticProps() {
     'tag',
     'author',
     'coverImage',
-    'excerpt',
-  ])
+    'excerpt'
+  ]);
 
   return {
-    props: { allPosts },
-  }
+    props: { allPosts }
+  };
 }
