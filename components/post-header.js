@@ -7,7 +7,7 @@ export default function PostHeader({ title, coverImage, date, excerpt, Tpsl }) {
   return (
     <>
       <div className="mt-5 mb-10 ">
-        <div className="ml-10">
+        <div className="ml-5 sm:ml-10">
           <div class="flex mt-10  mb-5 items-center ">
             <div class="flex-initial">
               <svg
